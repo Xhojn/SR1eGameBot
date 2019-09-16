@@ -16,7 +16,7 @@ function sortNumberDesc(a, b) {
 var Discord = require('discord.io');
 var logger = require('winston');
 
-var token = null;
+var token = glFJB73LvSImJsGE4m6Hk2hDhDpz1nSx;
 if (process.env.hasOwnProperty('TOKEN')) { token = process.env.TOKEN; }
 else {
   var auth = require('./auth.json');
